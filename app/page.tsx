@@ -12,6 +12,8 @@ import aboutpic1 from "@/public/image/WhatsApp Image 2024-07-02 at 11.12.32 PM.j
 import aboutpic2 from "@/public/image/WhatsApp Image 2024-07-02 at 11.13.34 PM.jpeg";
 import aboutpic3 from "@/public/image/WhatsApp Image 2024-07-02 at 11.32.33 PM.jpeg";
 import helpbg from "@/public/image/helpbg.png";
+import Cardaction from "@/components/Cardaction";
+import giving from "@/public/image/giving.jpeg";
 
 export default function Home() {
   return (
@@ -166,11 +168,15 @@ export default function Home() {
         </p>
         <Container>
           <div className="  justify-center  w-[60%] mx-auto text-center mt-11 ">
-            <p className="text-[#525560]">
+            <p className="text-[#525560] text-[20px]">
               We all have the power to make a positive impact on our world. Find
               out how you can help break the cycle of poverty, illiteracy, and
               low expectations.
             </p>
+          </div>
+
+          <div className=" flex ">
+            <Cardaction imagePath={giving} alt="" />
           </div>
         </Container>
       </div>
