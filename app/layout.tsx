@@ -6,7 +6,10 @@ import "./style.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
 const indie = Love_Ya_Like_A_Sister({
   subsets: ["latin"],
   weight: "400", // Specify the weight here
@@ -24,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${indie.className}`}>
+      <body className={`${inter.variable} ${indie.variable}`}>
         {" "}
         <Navbar />
         <div>{children}</div>
