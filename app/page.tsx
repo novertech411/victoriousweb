@@ -11,6 +11,7 @@ import { MdHealthAndSafety } from "react-icons/md";
 import aboutpic1 from "@/public/image/WhatsApp Image 2024-07-02 at 11.12.32 PM.jpeg";
 import aboutpic2 from "@/public/image/WhatsApp Image 2024-07-02 at 11.13.34 PM.jpeg";
 import aboutpic3 from "@/public/image/WhatsApp Image 2024-07-02 at 11.32.33 PM.jpeg";
+import helpbg from "@/public/image/helpbg.png";
 
 export default function Home() {
   return (
@@ -41,10 +42,7 @@ export default function Home() {
             <h1 className="text-primary font-inter font-[600] text-[50px]">
               We’re Building a Movement
             </h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique.
-            </p>
+
             <p className=" text-[20px] text-[#525560] my-9">
               We believe in the creating sustainable change by the working
               hind-in-hand with local communities. though our collaborative
@@ -66,19 +64,23 @@ export default function Home() {
         </div>
       </Container>
 
-      <div className="  flex text-[20px] bg-cover  h-[600px] relative  ">
+      <div className=" text-[20px] bg-cover   relative  my-[150px] ">
         <Image
           src={handbg}
           alt=""
           className="absolute  w-[60%]  right-0 overflow-hidden opacity-10"
         />
+        <h1 className="text-black font-inter font-[600] text-[50px] my-11 text-center ">
+          What We Do
+        </h1>
+
         <Container>
-          <div className=" flex  justify-center  gap-[100px]">
+          <div className=" flex  justify-between  gap-[100px] flex-wrap-reverse">
             <div className=" relative md:w-[40%]">
               <Image
                 data-aos="fade-down-right"
                 src={aboutpic3}
-                className=" w-[300px] border-primary border-2 rounded-lg"
+                className=" w-[300px] border-primary border-2 rounded-lg z-30"
                 alt="farm  "
               />
               <Image
@@ -90,16 +92,17 @@ export default function Home() {
               <Image
                 data-aos="fade-right"
                 src={aboutpic1}
-                className=" border-primary border-2  rounded-lg absolute  md:bottom-11  -bottom-[100px] left-7"
+                className=" border-primary border-2  rounded-lg absolute  md:bottom-11  -bottom-[100px] left-7 z-10"
                 alt="farm  "
               />
             </div>
 
-            <div className="">
-              <h1 className="text-primary font-inter font-[600] text-[50px]">
-                What We Do
-              </h1>
-              <div className="pl-6 border-l-2 border-black w-[500px] ">
+            <div className="w-[600px]">
+              <p className=" my-11">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique.
+              </p>
+              <div className="pl-6 border-l-2 border-black  ">
                 {" "}
                 <div className="mb-4  flex items-center gap-3">
                   <MdOutlineFamilyRestroom className="text-[120px]" />
@@ -154,17 +157,22 @@ export default function Home() {
 
         <div> </div>
       </div>
-      <div className="  justify-center  w-[60%] mx-auto text-center mt-11">
-        <p className="text-black font-inter font-[600] text-[50px]">
+
+      <div className="relative overflow-hidden">
+        <Image src={helpbg} alt="" className=" absolute w-[80%]  opacity-25" />
+        <p className="text-primary font-inter font-[600] text-[50px] text-center  mb-[100px]">
           {" "}
           You Can Make a Difference
         </p>
-
-        <p className="text-[#525560]">
-          We all have the power to make a positive impact on our world. Find out
-          how you can help break the cycle of poverty, illiteracy, and low
-          expectations.
-        </p>
+        <Container>
+          <div className="  justify-center  w-[60%] mx-auto text-center mt-11 ">
+            <p className="text-[#525560]">
+              We all have the power to make a positive impact on our world. Find
+              out how you can help break the cycle of poverty, illiteracy, and
+              low expectations.
+            </p>
+          </div>
+        </Container>
       </div>
     </main>
   );
