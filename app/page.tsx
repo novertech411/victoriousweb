@@ -1,3 +1,5 @@
+"use client";
+
 import Bannaer from "@/components/Bannaer";
 import Image from "next/image";
 import maps from "@/public/image/map.png";
@@ -13,7 +15,12 @@ import aboutpic2 from "@/public/image/WhatsApp Image 2024-07-02 at 11.13.34 PM.j
 import aboutpic3 from "@/public/image/WhatsApp Image 2024-07-02 at 11.32.33 PM.jpeg";
 import helpbg from "@/public/image/helpbg.png";
 import Cardaction from "@/components/Cardaction";
-import giving from "@/public/image/giving.jpeg";
+import giving from "@/public/image/BG (2).png";
+import volunter from "@/public/image/BG (1).png";
+import building from "@/public/image/BG.png";
+import { FaDonate } from "react-icons/fa";
+import { HiHomeModern } from "react-icons/hi2";
+import { FaUsersLine } from "react-icons/fa6";
 
 export default function Home() {
   return (
@@ -167,7 +174,7 @@ export default function Home() {
           You Can Make a Difference
         </p>
         <Container>
-          <div className="  justify-center  w-[60%] mx-auto text-center mt-11 ">
+          <div className="  justify-center  w-[60%] mx-auto text-center  ">
             <p className="text-[#525560] text-[20px]">
               We all have the power to make a positive impact on our world. Find
               out how you can help break the cycle of poverty, illiteracy, and
@@ -175,8 +182,25 @@ export default function Home() {
             </p>
           </div>
 
-          <div className=" flex ">
-            <Cardaction imagePath={giving} alt="" />
+          <div className=" flex  gap-10 justify-center">
+            <Cardaction
+              imagePath={giving}
+              label="Support us by Giving the Foundation "
+              alt=""
+              Icon={FaDonate}
+            />{" "}
+            <Cardaction
+              imagePath={building}
+              label="Build an  orphanage with Us "
+              alt=""
+              Icon={HiHomeModern}
+            />{" "}
+            <Cardaction
+              imagePath={volunter}
+              label=" Volunties with as individual  or  company  "
+              alt=""
+              Icon={FaUsersLine}
+            />
           </div>
         </Container>
       </div>
