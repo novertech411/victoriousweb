@@ -21,6 +21,7 @@ import building from "@/public/image/BG.png";
 import { FaDonate } from "react-icons/fa";
 import { HiHomeModern } from "react-icons/hi2";
 import { FaUsersLine } from "react-icons/fa6";
+import History from "@/components/History";
 
 export default function Home() {
   return (
@@ -59,7 +60,7 @@ export default function Home() {
               of change, fostering long-term impact.
             </p>
 
-            <button className=" bg-primary  text-[30px]  rounded-lg py-2 px-4 text-white flex items-center gap-2 hover:bg-white border-2 border-primary hover:text-primary ">
+            <button className=" bg-primary  text-[20px]  rounded-lg py-2 px-4 text-white flex items-center gap-2 hover:bg-white border-2 border-primary hover:text-primary ">
               Find out more
             </button>
           </div>
@@ -72,6 +73,8 @@ export default function Home() {
           <div className=""> </div>
         </div>
       </Container>
+
+      <History />
 
       <div className=" text-[20px] bg-cover   relative  my-[150px] ">
         <Image
@@ -169,13 +172,13 @@ export default function Home() {
 
       <div className="relative overflow-hidden">
         <Image src={helpbg} alt="" className=" absolute w-[80%]  opacity-25" />
-        <p className="text-primary font-inter font-[600] text-[50px] text-center  mb-[100px]">
+        <p className="text-primary font-inter font-[600] text-[50px] text-center  mb-[50px]">
           {" "}
           You Can Make a Difference
         </p>
         <Container>
           <div className="  justify-center  w-[60%] mx-auto text-center  ">
-            <p className="text-[#525560] text-[20px]">
+            <p className="text-[#525560] text-[20px] mb-[50px]">
               We all have the power to make a positive impact on our world. Find
               out how you can help break the cycle of poverty, illiteracy, and
               low expectations.

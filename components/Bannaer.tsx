@@ -10,15 +10,15 @@ function Bannaer() {
         <Image src={banner} alt="" />
 
         <div className="absolute  text-white top-[300px] text-center w-full   ">
-          <p className="text-[70px] inter ">
+          <p className="text-[70px] inter font-[600] ">
             {" "}
             we give hope <span className="text-primary">. </span>{" "}
           </p>
 
           <p className="  text-[100px] font-indie"> We are Victorious </p>
         </div>
-        <div className=" absolute z-10  w-full font-indie">
-          <button className=" bg-black  text-[30px]  rounded-lg py-2 px-4 text-white flex items-center gap-2 hover:bg-white border-2 border-primary hover:text-primary mx-auto">
+        <div className=" absolute z-10  w-full font-inter">
+          <button className=" bg-black  text-[30px] font-[600]  rounded-lg py-2 px-5 text-white flex items-center hover:bg-white border-2 border-primary hover:text-primary mx-auto">
             Join our commuinty
           </button>
         </div>
