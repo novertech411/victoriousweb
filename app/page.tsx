@@ -22,6 +22,7 @@ import { FaDonate } from "react-icons/fa";
 import { HiHomeModern } from "react-icons/hi2";
 import { FaUsersLine } from "react-icons/fa6";
 import History from "@/components/History";
+import Story from "@/components/Story";
 
 export default function Home() {
   return (
@@ -170,7 +171,7 @@ export default function Home() {
         <div> </div>
       </div>
 
-      <div className="relative overflow-hidden">
+      <div className="relative  mb-[70px] ">
         <Image src={helpbg} alt="" className=" absolute w-[80%]  opacity-25" />
         <p className="text-primary font-inter font-[600] text-[50px] text-center  mb-[50px]">
           {" "}
@@ -206,6 +207,10 @@ export default function Home() {
             />
           </div>
         </Container>
+      </div>
+
+      <div className=" bg-[#f1f2f4]">
+        <Story />
       </div>
     </main>
   );

@@ -16,6 +16,7 @@ const config: Config = {
         maps: "url('/image/map.png')",
         handbg: "url('/image/handbg.png')",
         historybg: "url('/image/stats.png')",
+        whitebg: "url('/image/whitehand.png')",
       },
 
       fontFamily: {
