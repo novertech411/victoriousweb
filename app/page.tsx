@@ -1,5 +1,4 @@
 "use client";
-
 import Bannaer from "@/components/Bannaer";
 import Image from "next/image";
 import maps from "@/public/image/map.png";
@@ -30,14 +29,14 @@ export default function Home() {
       <Bannaer />
       <Container>
         {" "}
-        <div className=" mt-[200px] h-[500px] relative ">
+        <div className=" mt-[200px] md:h-[500px] relative ">
           <Image
             src={maps}
             alt=""
-            className="w-[900px] opacity-30 mx-auto h-full"
+            className="md:w-[900px]  w-full opacity-30 mx-auto h-full"
           />
           <div className="top-0 absolute flex justify-center w-full">
-            <p className="    mt-[100px] text-center  w-[70%] font-inter text-[30px]">
+            <p className="   mt-3  md:mt-[100px] text-center  w-[90%] md:w-[70%] font-inter text-[20px] md:text-[30px]">
               {" "}
               Our mission is to Reach Out To{" "}
               <span className="text-primary font-[600]"> 5 Million </span> Less

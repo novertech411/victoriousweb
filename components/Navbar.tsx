@@ -6,16 +6,19 @@ import logo from "@/public/image/logo.png";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { RiHeartsFill } from "react-icons/ri";
+import icon from "@/public/image/icon.png";
+
 function Navbar() {
   const pathname = usePathname();
 
   return (
-    <div className=" bg-white    ">
+    <div className=" bg-white  ">
       <Container>
-        <div className="  flex  py-4 px-2   justify-between items-center">
-          <Image src={logo} alt="logo" />
+        <div className="  flex  py-4 md:px-2    px-0 justify-between items-center">
+          <Image src={logo} alt="logo" className="md:flex hidden" />
+          <Image src={icon} alt="logo" className="flex md:hidden" />
 
-          <ul className=" flex gap-11">
+          <ul className=" md:flex gap-11 hidden">
             <Link href="/">
               <li
                 className={` py-1  border-b-2  border-white     hover:border-secondary  ${
@@ -47,9 +50,12 @@ function Navbar() {
             </Link>
           </ul>
 
-          <button className=" bg-primary  rounded-lg py-2 px-4 text-white flex items-center gap-2 hover:bg-white border-2 border-primary hover:text-primary">
+          <button className=" hidden  bg-primary  rounded-lg py-2 px-4 text-white md:flex items-center gap-2 hover:bg-white border-2 border-primary hover:text-primary">
             <RiHeartsFill /> Donate
           </button>
+
+
+
         </div>
       </Container>{" "}
     </div>
