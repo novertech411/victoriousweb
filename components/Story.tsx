@@ -22,8 +22,8 @@ function Story() {
               BREAKING BARRIERS TO SERVE
             </h2>
             <p>
-              "Service makes you feel like you have somebody. That there’s a
-              community around you."
+              &quot;Service makes you feel like you have somebody. That
+              there&quot;s a community around you.&quot;
             </p>
           </div>
 
@@ -38,8 +38,8 @@ function Story() {
               BREAKING BARRIERS TO SERVE
             </h2>
             <p>
-              "Service makes you feel like you have somebody. That there’s a
-              community around you."
+              &quot;Service makes you feel like you have somebody. That
+              there&quot;s a community around you.&quot;
             </p>
           </div>
 
@@ -54,8 +54,8 @@ function Story() {
               BREAKING BARRIERS TO SERVE
             </h2>
             <p>
-              "Service makes you feel like you have somebody. That there’s a
-              community around you."
+              &quot;Service makes you feel like you have somebody. That there’s
+              a community around you.&quot;
             </p>
           </div>
         </div>
