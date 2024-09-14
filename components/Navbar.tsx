@@ -53,9 +53,6 @@ function Navbar() {
           <button className=" hidden  bg-primary  rounded-lg py-2 px-4 text-white md:flex items-center gap-2 hover:bg-white border-2 border-primary hover:text-primary">
             <RiHeartsFill /> Donate
           </button>
-
-
-
         </div>
       </Container>{" "}
     </div>

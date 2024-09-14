@@ -29,14 +29,14 @@ export default function Home() {
       <Bannaer />
       <Container>
         {" "}
-        <div className=" mt-[200px] md:h-[500px] relative ">
+        <div className="  mt-[250px] md:mt-[200px] md:h-[500px] relative ">
           <Image
             src={maps}
             alt=""
             className="md:w-[900px]  w-full opacity-30 mx-auto h-full"
           />
           <div className="top-0 absolute flex justify-center w-full">
-            <p className="   mt-3  md:mt-[100px] text-center  w-[90%] md:w-[70%] font-inter text-[20px] md:text-[30px]">
+            <p className="   mt-3  md:mt-[100px] text-center  w-[95%] md:w-[70%] font-inter text-[18px] md:text-[30px]">
               {" "}
               Our mission is to Reach Out To{" "}
               <span className="text-primary font-[600]"> 5 Million </span> Less
@@ -47,20 +47,20 @@ export default function Home() {
       </Container>
 
       <Container>
-        <div className="flex gap-8  justify-between ">
+        <div className="flex gap-8  justify-between flex-wrap-reverse  mt-[100px]">
           <div className=" w-[600px]">
-            <h1 className="text-primary font-inter font-[600] text-[50px]">
+            <h1 className="text-primary font-inter font-[600] md:text-[50px] text-[25px]">
               We’re Building a Movement
             </h1>
 
-            <p className=" text-[20px] text-[#525560] my-9">
+            <p className=" text-[18px]  md:text-[20px] text-[#525560] my-9">
               We believe in the creating sustainable change by the working
               hind-in-hand with local communities. though our collaborative
               approach. We empower individuals and communities to become agents
               of change, fostering long-term impact.
             </p>
 
-            <button className=" bg-primary  text-[20px]  rounded-lg py-2 px-4 text-white flex items-center gap-2 hover:bg-white border-2 border-primary hover:text-primary ">
+            <button className=" bg-primary text-[18px]  md:text-[20px]  rounded-lg py-2 px-4 text-white flex items-center gap-2 hover:bg-white border-2 border-primary hover:text-primary ">
               Find out more
             </button>
           </div>
