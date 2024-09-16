@@ -24,7 +24,7 @@ function Bannaer() {
           </p>
         </div>
         <div className=" absolute z-10  w-full font-inter">
-          <button className=" bg-black text-[15px] md:text-[30px] font-[600]  rounded-lg py-2 px-5 text-white flex items-center hover:bg-white border-2 border-primary hover:text-primary mx-auto">
+          <button className=" bg-black text-[18px] md:text-[30px] font-[600]  rounded-lg py-2 px-5 text-white flex items-center hover:bg-white border-2 border-primary hover:text-primary mx-auto">
             Join our commuinty
           </button>
         </div>

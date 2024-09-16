@@ -7,10 +7,10 @@ function Story() {
   return (
     <div className=" bg-[#f1f2f4]    py-[80px] pb-[150px]">
       <Container>
-        <h2 className=" text-black  font-inter font-[600] text-[50px]  text-left   py-11">
+        <h2 className=" text-black  font-inter font-[600] md:text-[50px] text-[30px]  text-left   py-11">
           Stories That Inspire
         </h2>
-        <div className="flex justify-center gap-11">
+        <div className="flex justify-center gap-11 flex-wrap">
           <div className=" max-w-[300px]  text-center ">
             <Image
               src={story}

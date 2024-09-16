@@ -7,6 +7,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { RiHeartsFill } from "react-icons/ri";
 import icon from "@/public/image/icon.png";
+import Hambugar from "./Hambugar";
 
 function Navbar() {
   const pathname = usePathname();
@@ -16,7 +17,7 @@ function Navbar() {
       <Container>
         <div className="  flex  py-4 md:px-2    px-0 justify-between items-center">
           <Image src={logo} alt="logo" className="md:flex hidden" />
-          <Image src={icon} alt="logo" className="flex md:hidden" />
+          <Image src={icon} alt="logo" className="flex md:hidden w-[40px]" />
 
           <ul className=" md:flex gap-11 hidden">
             <Link href="/">
@@ -53,6 +54,7 @@ function Navbar() {
           <button className=" hidden  bg-primary  rounded-lg py-2 px-4 text-white md:flex items-center gap-2 hover:bg-white border-2 border-primary hover:text-primary">
             <RiHeartsFill /> Donate
           </button>
+          <Hambugar />
         </div>
       </Container>{" "}
     </div>

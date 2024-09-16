@@ -49,7 +49,7 @@ export default function Home() {
       <Container>
         <div className="flex gap-8  justify-between flex-wrap-reverse  mt-[100px]">
           <div className=" w-[600px]">
-            <h1 className="text-primary font-inter font-[600] md:text-[50px] text-[25px]">
+            <h1 className="text-primary font-inter font-[600] md:text-[50px] text-[30px]">
               We’re Building a Movement
             </h1>
 
@@ -80,15 +80,15 @@ export default function Home() {
         <Image
           src={handbg}
           alt=""
-          className="absolute  w-[60%]  right-0 overflow-hidden opacity-10"
+          className="absolute  md:w-[60%]  w-[100%]  right-0 overflow-hidden opacity-10"
         />
-        <h1 className="text-black font-inter font-[600] text-[50px] my-11 text-center ">
+        <h1 className="text-black font-inter font-[600] md:text-[50px] text-[30px] md:my-11 text-center  -mt-11">
           What We Do
         </h1>
 
         <Container>
-          <div className=" flex  justify-between  gap-[100px] flex-wrap-reverse">
-            <div className=" relative md:w-[40%]">
+          <div className=" flex  justify-between  gap-[100px] flex-wrap">
+            <div className="  relative md:w-[40%] mt-[150px]">
               <Image
                 data-aos="fade-down-right"
                 src={aboutpic3}
@@ -110,7 +110,7 @@ export default function Home() {
             </div>
 
             <div className="w-[600px]">
-              <p className=" my-11">
+              <p className=" my-11  md:text-[25ppx] text-[18px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros elementum tristique.
               </p>
@@ -122,7 +122,7 @@ export default function Home() {
                     <p className=" my-3 font-[600] text-primary ">
                       Family support
                     </p>{" "}
-                    <p className="text-[#525560]">
+                    <p className="text-[#525560]  md:text-[25ppx] text-[18px]">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Suspendisse varius enim in eros.
                     </p>
@@ -134,7 +134,7 @@ export default function Home() {
                     <p className=" my-3 font-[600] text-primary ">
                       Health benefits
                     </p>{" "}
-                    <p className="text-[#525560]">
+                    <p className="text-[#525560] md:text-[25ppx] text-[18px]">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Suspendisse varius enim in eros.
                     </p>
@@ -146,7 +146,7 @@ export default function Home() {
                     <p className=" my-3 font-[600] text-primary ">
                       Scholarships
                     </p>{" "}
-                    <p className="text-[#525560]">
+                    <p className="text-[#525560] md:text-[25ppx] text-[18px]">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Suspendisse varius enim in eros.
                     </p>
@@ -156,7 +156,7 @@ export default function Home() {
                   <RiMentalHealthFill className="text-[120px]" />
                   <div>
                     <p className=" my-3 font-[600] text-primary ">Therapy</p>{" "}
-                    <p className="text-[#525560]">
+                    <p className="text-[#525560] md:text-[25ppx] text-[18px]">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Suspendisse varius enim in eros.
                     </p>
@@ -171,21 +171,25 @@ export default function Home() {
       </div>
 
       <div className="relative  mb-[70px] ">
-        <Image src={helpbg} alt="" className=" absolute w-[80%]  opacity-25" />
-        <p className="text-primary font-inter font-[600] text-[50px] text-center  mb-[50px]">
+        <Image
+          src={helpbg}
+          alt=""
+          className=" absolute md:w-[80%]    opacity-25"
+        />
+        <p className="text-primary font-inter font-[600] md:text-[50px] text-[30px] text-center  mb-[50px]">
           {" "}
           You Can Make a Difference
         </p>
         <Container>
-          <div className="  justify-center  w-[60%] mx-auto text-center  ">
-            <p className="text-[#525560] text-[20px] mb-[50px]">
+          <div className="  justify-center  md:w-[60%] mx-auto text-center   ">
+            <p className="text-[#525560] text-[18px] mb-[50px]">
               We all have the power to make a positive impact on our world. Find
               out how you can help break the cycle of poverty, illiteracy, and
               low expectations.
             </p>
           </div>
 
-          <div className=" flex  gap-10 justify-center">
+          <div className=" flex  gap-10 justify-center flex-wrap">
             <Cardaction
               imagePath={giving}
               label="Support us by Giving the Foundation "
