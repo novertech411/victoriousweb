@@ -182,7 +182,7 @@ export default function Home() {
         </p>
         <Container>
           <div className="  justify-center  md:w-[60%] mx-auto text-center   ">
-            <p className="text-[#525560] text-[18px] mb-[50px]">
+            <p className="text-[#525560] text-[18px] md:text-[25px] mb-[50px]">
               We all have the power to make a positive impact on our world. Find
               out how you can help break the cycle of poverty, illiteracy, and
               low expectations.
