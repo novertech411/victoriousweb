@@ -18,7 +18,8 @@ const config: Config = {
         historybg: "url('/image/stats.png')",
         whitebg: "url('/image/whitehand.png')",
         aboutbg: "url('/image/Demo Day.png')",
-        aboutbg2: "url('/image/Demo Day(1).png')",
+        aboutbg2: "url('/image/demo2.png')",
+        abouthelp: "url('/image/helpbg.png')",
       },
 
       fontFamily: {
