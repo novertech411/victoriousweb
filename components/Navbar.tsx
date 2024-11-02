@@ -25,7 +25,7 @@ function Navbar() {
           <Image src={logo} alt="logo" className="md:flex hidden" />
           <Image src={icon} alt="logo" className="flex md:hidden w-[40px]" />
 
-          <ul className=" md:flex gap-11 hidden">
+          <ul className=" md:flex  gap-11 hidden relative">
             <Link href="/">
               <li
                 className={` py-1  border-b-2  border-white     hover:border-secondary  ${
@@ -54,6 +54,18 @@ function Navbar() {
               >
                 Gallary
               </li>
+            </Link>
+            <Link className="  flex items-center relative" href=" ">
+              <li
+                className={` py- border-b-2  border-white     hover:border-secondary  ${
+                  pathname === "" ? "border-secondary" : ""
+                }   `}
+              >
+                Event
+              </li>
+              <div className="absolute bg-red-200  p-1 rounded-lg  -translate-y-4   translate-x-11 text-primary text-[12px]  text-nowrap w-[80px]">
+                Coming soon
+              </div>
             </Link>
           </ul>
 

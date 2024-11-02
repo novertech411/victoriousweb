@@ -71,12 +71,12 @@ function page() {
       </div>
 
       <Container>
-        <div className="flex gap-8  justify-between flex-wrap-reverse  pt-[100px]  ">
+        <div className="flex gap-8  justify-between flex-wrap  pt-[100px]  ">
           <div className="w-[400px]">
             <Image src={founder} alt="" className="rounded-lg w-[600px]" />
           </div>
 
-          <div className=" w-[50%]">
+          <div className=" md:w-[50%] w-[90%] ">
             <p className="font-inter font-[600] md:text-[50px] text-[30px]">
               Eziuka Healing
             </p>
@@ -127,8 +127,11 @@ function page() {
       <h2 className=" font-inter font-[600] md:text-[50px] text-[30px] md:mt-11 text-center ">
         Our Story
       </h2>
+      <h3 className="font-inter font-[400] md:text-[40px] text-[30px] md:my-11 text-center">
+        Ignite change. <span className="text-primary">Invest </span> in hope !
+      </h3>
       <div
-        className="relative  max-w-5xl bg-red-500 mx-auto"
+        className="relative  max-w-5xl bg-red-500 mx-auto h-[600px]"
         style={{ paddingTop: "56.25%" /* 16:9 Aspect Ratio */ }}
       >
         <iframe
