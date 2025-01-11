@@ -11,7 +11,7 @@ import partners from "@/public/image/partners.png";
 
 function page() {
   return (
-    <div className="bg-white">
+    <div className="bg-white  text-[#525560]">
       <div className=" md:h-[500px] overflow-hidden bg-aboutbg bg-cover bg-center">
         <h1 className="font-indie font-[600] md:text-[90px] text-[60px] text-center md:mt-[19%] mt-[30%] text-white  z-20">
           About us
@@ -21,8 +21,8 @@ function page() {
         <Image className="" src={aboutbg} alt="" />
       </div>
       <Container>
-        <div className=" flex flex-wrap gap-[100px] justify-center  my-[70px] ">
-          <p className=" font-[600] text-[40px] max-w-[400px]">
+        <div className=" flex flex-wrap gap-[100px] justify-center text-[#525560]  my-[70px] ">
+          <p className=" font-[600] text-[40px] max-w-[400px] text-primary">
             We’re not a charity. We’re a movement.
           </p>
 
@@ -53,9 +53,9 @@ function page() {
       </div>
       <div className=" bg-[#f1f2f4]">
         <Container>
-          <div className="flex gap-8  justify-between flex-wrap-reverse  pt-[100px]  ">
+          <div className="flex gap-8  justify-between flex-wrap-reverse  pt-[100px]  text-black ">
             <div className="w-[600px]">
-              <p className="font-inter font-[600] md:text-[50px] text-[30px]">
+              <p className="font-inter font-[600] md:text-[50px] text-[30px] te">
                 Meet the People Who Make Our Work Possible
               </p>
               <p>
@@ -98,7 +98,7 @@ function page() {
               Doctorate in Humane Letters, honoris causa from St. John’s
               University and he delivered the commencement speech for the 2024
               graduating class. To schedule an interview or other media request
-              with Jim, please email press@buildon.org.
+              with Jim, please
             </p>
           </div>
         </div>
@@ -131,7 +131,7 @@ function page() {
         Ignite change. <span className="text-primary">Invest </span> in hope !
       </h3>
       <div
-        className="relative  max-w-5xl bg-red-500 mx-auto h-[600px]"
+        className="relative  max-w-5xl mx-auto h-[400px]"
         style={{ paddingTop: "56.25%" /* 16:9 Aspect Ratio */ }}
       >
         <iframe

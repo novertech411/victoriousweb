@@ -12,7 +12,7 @@ function Bannaer() {
         <Image src={banner} alt="" className=" md:flex hidden" />
         <Image src={bannerhead} alt="" className=" md:hidden " />
 
-        <div className="absolute  text-white  top-[100px] md:top-[300px] text-center w-full   ">
+        <div className="absolute  text-white  top-[100px] md:top-[35%] text-center w-full   ">
           <p className="  text-[30px]  md:text-[70px] inter font-[600] ">
             {" "}
             we give hope <span className="text-primary">. </span>{" "}
@@ -24,7 +24,7 @@ function Bannaer() {
           </p>
         </div>
         <div className=" absolute z-10  w-full font-inter">
-          <button className=" bg-black text-[18px] md:text-[30px] font-[600]  rounded-lg py-2 px-5 text-white flex items-center hover:bg-white border-2 border-primary hover:text-primary mx-auto">
+          <button className=" bg-black text-[18px] md:text-[20px]  font-[400] font-indie  rounded-lg py-2 px-5 text-white flex items-center hover:bg-white border-2 border-primary hover:text-primary mx-auto">
             Join our commuinty
           </button>
         </div>

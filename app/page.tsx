@@ -36,7 +36,7 @@ export default function Home() {
             className="md:w-[900px]  w-full opacity-30 mx-auto h-full"
           />
           <div className="top-0 absolute flex justify-center w-full">
-            <p className="   mt-3  md:mt-[100px] text-center  w-[95%] md:w-[70%] font-inter text-[18px] md:text-[30px]">
+            <p className="   mt-3  md:mt-[100px] text-center  w-[85%] md:w-[80%] font-inter text-[#525560] text-[18px] md:text-[30px]">
               {" "}
               Our mission is to Reach Out To{" "}
               <span className="text-primary font-[600]"> 5 Million </span> Less
@@ -48,7 +48,7 @@ export default function Home() {
 
       <Container>
         <div className="flex gap-8  justify-between flex-wrap-reverse  mt-[100px]">
-          <div className=" w-[600px]">
+          <div className=" md:w-[600px]">
             <h1 className="text-primary font-inter font-[600] md:text-[50px] text-[30px]">
               We’re Building a Movement
             </h1>
@@ -64,8 +64,8 @@ export default function Home() {
               Find out more
             </button>
           </div>
-          <div className="flex justify-center">
-            <Image src={aboutimg} alt="" className="" />
+          <div className="flex justify-center lg:mx-0 mx-auto  ">
+            <Image src={aboutimg} alt="" className=" " />
           </div>
         </div>
 
@@ -114,10 +114,10 @@ export default function Home() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros elementum tristique.
               </p>
-              <div className="pl-6 border-l-2 border-black  ">
+              <div className="pl-6 border-l-2 border-secondary  ">
                 {" "}
                 <div className="mb-4  flex items-center gap-3">
-                  <MdOutlineFamilyRestroom className="text-[120px]" />
+                  <MdOutlineFamilyRestroom className="text-[120px] text-[#9f9fa1] " />
                   <div>
                     <p className=" my-3 font-[600] text-primary ">
                       Family support
@@ -129,7 +129,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="mb-4  flex items-center gap-3">
-                  <MdHealthAndSafety className="text-[120px]" />
+                  <MdHealthAndSafety className="text-[120px] text-[#9f9fa1]" />
                   <div>
                     <p className=" my-3 font-[600] text-primary ">
                       Health benefits
@@ -141,7 +141,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="mb-4  flex items-center gap-3">
-                  <FaGoogleScholar className="text-[120px]" />
+                  <FaGoogleScholar className="text-[120px] text-[#9f9fa1]" />
                   <div>
                     <p className=" my-3 font-[600] text-primary ">
                       Scholarships
@@ -153,7 +153,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="mb-4  flex items-center gap-3">
-                  <RiMentalHealthFill className="text-[120px]" />
+                  <RiMentalHealthFill className="text-[120px] text-[#9f9fa1]" />
                   <div>
                     <p className=" my-3 font-[600] text-primary ">Therapy</p>{" "}
                     <p className="text-[#525560] md:text-[25ppx] text-[18px]">
