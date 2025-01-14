@@ -36,11 +36,12 @@ export default function Home() {
             className="md:w-[900px]  w-full opacity-30 mx-auto h-full"
           />
           <div className="top-0 absolute flex justify-center w-full">
-            <p className="   mt-3  md:mt-[100px] text-center  w-[85%] md:w-[80%] font-inter text-[#525560] text-[18px] md:text-[30px]">
+            <p className="   mt-3  md:mt-[100px] text-center  w-[80%] md:w-[70%] font-inter text-[#525560] text-[18px] md:text-[30px]">
               {" "}
               Our mission is to Reach Out To{" "}
-              <span className="text-primary font-[600]"> 5 Million </span> Less
-              Privileges And Vulnerable Children All Over The World.
+              <span className="text-primary font-[600]"> 5 Million </span>{" "}
+              Orphans, Less Previleged, Widows Physically Disabled And
+              Vulnurable Children All Over The World.
             </p>
           </div>
         </div>{" "}
